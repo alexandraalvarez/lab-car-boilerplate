@@ -11,13 +11,13 @@
   <body>
 
   	<header>
-  		<div class="row"><!--row nav header-->
-  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><!--col-->
+  		<div class="row" id="row-header"><!--row nav header-->
+  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="col-header"><!--col-->
   				<nav class="navbar navbar-default"><!--nav bar default-->
 						<div class="container-fluid"><!-- /.container-fluid -->
 							<div class="navbar-nav hidden-lg hidden-md hidden-sm visible-xs-"><button type="button" class="btn btn-default btn-sm"><a href="#" class="navbar-nav hidden-lg hidden-md hidden-sm visible-xs-"><i class="fa fa-bars" aria-hidden="true"></i></a></button>
 						  </div>
-						  <div class="navbar-header hidden-lg hidden-md visible-sm- visible-xs-"><!-- /.navbar-header -->
+						  <div class="navbar-header"><!-- /.navbar-header -->
 						    <img src="assets/images/logoForma.png" class="navbar-brand img-responsive" alt="Responsive image" href="#"></img>
 						  </div><!-- /.navbar-header -->
 						  <div class="collapse navbar-collapse hidden-sm hidden-xs" id="bs-example-navbar-collapse-1"><!-- /.navbar-collapse -->
@@ -33,32 +33,32 @@
   		</div><!--row nav header-->
   	</header>
 
-		<section class="hidden-lg hidden-md hidden-sm visible-xs-"><!--comienza a viajar (mobile)-->
-			<div class="row"><!--row comienza a viajar (mobile)-->
-				<div class="col-xs-10 col-xs-offset-2"><!--col-5-10 offset-7 comienza a viajar (mobile)-->
+		<section class="hidden-lg hidden-md hidden-sm visible-xs- section-travel"><!--comienza a viajar (mobile)-->
+			<div class="row" id="row-travel"><!--row comienza a viajar (mobile)-->
+				<div class="col-xs-10 col-xs-offset-2 travel-col"><!--col-5-10 offset-7 comienza a viajar (mobile)-->
 					<h1>Comienza a viajar con <img src="assets/images/logoBlanco.png"></h1>
 					<a class="btn btn-default" href="#" role="button">Descarga la app</a>
 				</div><!--col-7-10 comienza a viajar (mobile)-->
 			</div><!--row comienza a viajar (mobile)-->
 		</section><!--comienza a viajar (mobile)-->  
 
-		<section class="hidden-xs visible-sm- visible-md- visible-lg-"><!--disfruta viaje-->
-			<div class="row"><!--row disfruta viaje-->
-				<div class="col-sm-10 col-sm-offset-2 col-md-5 col-md-offset-7 col-lg-5 col-lg-offset-7"><!--col-5-10 offset-7 disfruta viaje-->
-					<h1>Disfruta del viaje <br> Eres dueño de tu tiempo</h1>
-					<h4>Viaja con <img src="assets/images/logoBlanco.png"></h4>
-					<a class="btn btn-default" href="#" role="button">Regístrate</a>
-					<h5>o bien</h5><!--debe ir con after y before en CSS-->
-					<a class="btn btn-default" href="#" role="button">Conviértete en un conductor</a>
+		<section class="hidden-xs visible-sm- visible-md- visible-lg- section-travel"><!--disfruta viaje-->
+			<div class="row" id="row-enjoy"><!--row disfruta viaje-->
+				<div class="col-sm-10 col-sm-offset-2 col-md-5 col-md-offset-7 col-lg-5 col-lg-offset-7 travel-col"><!--col-5-10 offset-7 disfruta viaje-->
+					<h1><strong>Disfruta del viaje <br> Eres dueño de tu tiempo</strong></h1>
+					<h3><strong>Viaja con <img src="assets/images/logoBlanco.png" id="white-brand"></strong></h3>
+					<a class="btn btn-default" href="#" role="button"><strong>REGÍSTRATE</strong></a>
+					<h5 class="after-before"><strong>O bien</strong></h5><!--debe ir con after y before en CSS-->
+					<a class="btn btn-default" href="#" role="button"><strong>Conviértete en un conductor</strong></a>
 				</div><!--col-7-10 disfruta viaje-->
 			</div><!--row disfruta viaje-->
 		</section><!--disfruta viaje-->  
 
 		<section class="visible-xs hidden-sm hidden-md hidden-lg"><!--nueva app (mobile)-->
-			<div class="row"><!--row nueva app (mobile)-->
+			<div class="row" id="row-newapp"><!--row nueva app (mobile)-->
 				<div class="col-xs-12"><!--col-12 nueva app (movile)-->
 					<div class="row">
-						<div class="col-xs-10 col-xs-offset-1 thumbnail"><!--col-12 nueva app (movile) iphone-->
+						<div class="col-xs-10 col-xs-offset-1 thumbnail"><!--col-12 nueva app (mobile) iphone-->
 							<h3>La nueva app</h3>
 							<img src="assets/images/iPhone6Plus.png" class="img-responsive" alt="Responsive image">
 						</div><!--col-12-6 nueva app (mobile) iphone-->
@@ -71,9 +71,9 @@
 		</section><!--nueva app (mobile)-->
 		
 		<section class="hidden-xs"><!--descarga-->
-			<div class="row"><!--row descarga-->
+			<div class="row" id="row-download"><!--row descarga-->
 				<div class="col-xs-12 col-md-9"><!--col-12-9 descarga-->
-					<div class="row">
+					<div class="row" id="mini-row-download"><!--row interior-->
 						<div class="col-xs-12 col-md-6"><!--col-12-6 descarga iphone-->
 							<img src="assets/images/iPhone6Plus.png" class="img-responsive" alt="Responsive image">
 						</div><!--col-12-6 descarga iphone-->
@@ -85,13 +85,13 @@
 							<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a dónde quieras aún más fácil y rápido</p>
 							<p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente ir</p>
 						</div><!--col-12-6 descarga texto-->
-					</div>
+					</div><!--row interior-->
 				</div><!--col-12-9 descarga-->
 			</div><!--row descarga-->
 		</section><!--descarga-->
 
 		<section><!--conduce-->
-			<div class="row"><!--row conduce-->
+			<div class="row" id="row-drive"><!--row conduce-->
 				<div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-8 col-lg-4 col-lg-offset-8"><!--col-12-4 offset-8 conduce-->
 					<h3>Conduce cuando quieras</h3>
 					<p>LabCar es una opción flexible para alcanzar tus metas financieras</p>
@@ -101,7 +101,7 @@
 		</section><!--conduce-->
 
 		<section><!--tarifas-->
-			<div class="row"><!--row tarifas-->
+			<div class="row" id="row-prices"><!--row tarifas-->
 				<div class="col-xs-12 col-ms-12 col-md-6 col-lg-6"><!--col-12-6 tarifas-->
 					<h3>Tarifas</h3>
 					<p>Consulta las tarifas aquí</p>
@@ -119,7 +119,7 @@
 		</section><!--tarifas (mobile)-->
 
 		<footer>
-			<div class="row"><!--row footer logo-->
+			<div class="row" id="row-footer"><!--row footer logo-->
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><!--col-12-12 footer-->
 					<img src="assets/images/logoBlanco.png" class="img-responsive" alt="Responsive image">
 				</div><!--col-12-12 footer logo-->
@@ -166,12 +166,13 @@
 					<img src="assets/images/enBadgeWebGeneric.png" class="img-responsive" alt="Responsive image">
 				</div><!--col 6 y col 3-->
 			</div><!--row footer-->
-			<div class="row"><!--row footer-->
-				<div class="col-md-12 col-xs-12"><!--col-12-12 footer-->
+			<div class="row" id="row-copyright"><!--row footer-->
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><!--col-12-12 footer-->
 					<h5 class="fa fa-copyright" aria-hidden="true"> 2017 LabCar Technologies Inc</h5>
 				</div><!--col-12-12 footer-->
 			</div><!--row footer-->
 		</footer>
+
   	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>

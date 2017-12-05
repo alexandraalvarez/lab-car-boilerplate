@@ -1,4 +1,73 @@
-/* Los estilos de tu proyecto */
-body {
-	background-color: yellow;
+/*Formato general del header-nav*/
+#row-header {
+	margin: 0;
+}
+/*Formato general de la section mobile comienza a viajar*/
+.section-travel {
+	background-image: url(../assets/images/taxi.jpg);
+	background-size: cover;
+	background-position: bottom;
+	color: #FFFFFF;
+}
+#row-travel {
+	margin: 0;
+}
+.section-travel #row-enjoy .travel-col {
+	margin-top: 18rem;
+	margin-bottom: 18rem;
+	background-color: #F7B617;
+	padding: 2rem 2rem 3.5rem 4rem;
+}
+.section-travel #row-enjoy .travel-col h1 {
+	padding-bottom: 2.5rem;
+}
+.section-travel #row-enjoy .travel-col a { /*botón regístrate*/
+	padding: 1rem;
+	font-size: 1.7rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}	
+.after-before:after, .after-before:before {
+	content: "";
+	border: 1px solid #FFFFFF;
+	display: inline-block;
+	width: 25%;
+	margin: 0.4rem;
+}
+.after-before strong {
+	padding: 6rem; 
+}
+.section-travel #row-enjoy .travel-col 
+/*Formato general de la section disfruta viaje*/
+#row-enjoy {
+	margin: 0;
+}
+#col-header {
+	padding: 0;
+}
+/*Formato general de la section nueva app (mobile)*/
+#row-newapp {
+	margin: 0;	
+}
+/*Formato general de la section descarga*/
+#row-download {
+	margin: 0;	
+}
+#mini-row-download {
+	margin: 0;	
+}
+/*Formato general de la section conduce*/
+#row-drive {
+	margin: 0;	
+}
+/*Formato general de la section tarifas*/
+#row-prices {
+	margin: 0;	
+}
+/*Formato general del footer*/
+#row-footer {
+	margin: 0;
+}
+#row-copyright {
+	margin: 0;
 }
