@@ -13,7 +13,7 @@
   	<header>
   		<div class="row" id="row-header"><!--row nav header-->
   			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="col-header"><!--col-->
-  				<nav class="navbar navbar-default"><!--nav bar default-->
+  				<nav class="navbar navbar-default" id="nav-header"><!--nav bar default-->
 						<div class="container-fluid"><!-- /.container-fluid -->
 							<div class="navbar-nav hidden-lg hidden-md hidden-sm visible-xs-"><button type="button" class="btn btn-default btn-sm"><a href="#" class="navbar-nav hidden-lg hidden-md hidden-sm visible-xs-"><i class="fa fa-bars" aria-hidden="true"></i></a></button>
 						  </div>
@@ -36,7 +36,7 @@
 		<section class="hidden-lg hidden-md hidden-sm visible-xs- section-travel"><!--comienza a viajar (mobile)-->
 			<div class="row" id="row-travel"><!--row comienza a viajar (mobile)-->
 				<div class="col-xs-10 col-xs-offset-2 travel-col"><!--col-5-10 offset-7 comienza a viajar (mobile)-->
-					<h1>Comienza a viajar con <img src="assets/images/logoBlanco.png"></h1>
+					<h1>Comienza a viajar <br> con <img src="assets/images/logoBlanco.png" class="img-responsive" alt="Responsive image"></h1><!--no está respondiendo el image responsive-->
 					<a class="btn btn-default" href="#" role="button">Descarga la app</a>
 				</div><!--col-7-10 comienza a viajar (mobile)-->
 			</div><!--row comienza a viajar (mobile)-->
@@ -54,12 +54,12 @@
 			</div><!--row disfruta viaje-->
 		</section><!--disfruta viaje-->  
 
-		<section class="visible-xs hidden-sm hidden-md hidden-lg"><!--nueva app (mobile)-->
+		<section class="visible-xs hidden-sm hidden-md hidden-lg section-newapp"><!--nueva app (mobile)-->
 			<div class="row" id="row-newapp"><!--row nueva app (mobile)-->
 				<div class="col-xs-12"><!--col-12 nueva app (movile)-->
 					<div class="row">
-						<div class="col-xs-10 col-xs-offset-1 thumbnail"><!--col-12 nueva app (mobile) iphone-->
-							<h3>La nueva app</h3>
+						<div class="col-xs-10 col-xs-offset-1 thumbnail iphone-newapp"><!--col-12 nueva app (mobile) iphone-->
+							<h3 class="text-center">La nueva app</h3>
 							<img src="assets/images/iPhone6Plus.png" class="img-responsive" alt="Responsive image">
 						</div><!--col-12-6 nueva app (mobile) iphone-->
 						<div class="col-xs-10 col-xs-offset-1"><!--col-12 nueva app (mobile) texto-->
@@ -70,21 +70,18 @@
 			</div><!--row nueva app (mobile)-->
 		</section><!--nueva app (mobile)-->
 		
-		<section class="hidden-xs"><!--descarga-->
+		<section class="hidden-xs download"><!--descarga-->
 			<div class="row" id="row-download"><!--row descarga-->
-				<div class="col-xs-12 col-md-9"><!--col-12-9 descarga-->
+				<div class="col-sm-10 col-md-10 col-lg-10 thumbnail col-thumbnail"><!--col-12-9 descarga-->
 					<div class="row" id="mini-row-download"><!--row interior-->
-						<div class="col-xs-12 col-md-6"><!--col-12-6 descarga iphone-->
+						<div class="col-sm-6 col-md-6 col-lg-6 iphone"><!--col-12-6 descarga iphone-->
 							<img src="assets/images/iPhone6Plus.png" class="img-responsive" alt="Responsive image">
 						</div><!--col-12-6 descarga iphone-->
-						<!--<div class="col-xs-12"><col-12 hidden-md descarga-->
-							<!--<p>Llega a tu destino aún más rápido</p>
-						</div><col-12 hidden-md descarga-->
-						<div class="col-xs-12 col-md-6 hidden-xs"><!--col-12-6 descarga texto-->
-							<h3>Descarga la nueva app</h3>
-							<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a dónde quieras aún más fácil y rápido</p>
-							<p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente ir</p>
-						</div><!--col-12-6 descarga texto-->
+						<div class="hidden-xs col-sm-6 col-md-6 col-lg-6 texto-download"><!--hidden xs col-6 descarga texto-->
+							<h3><strong>Descarga la nueva app</strong></h3>
+							<p>La versión actualizada de LabCar</p><p>está llena de nuevas funciones para</p><p>llegar a dónde quieras aún más fácil </p><p> y rápido</p>
+							<p class="download-paragraph">Con solo tocar un botón, un auto </p><p>llega justo a tu ubicación. Súbete y </p><p> no te preocupes: tu conductor sabe</p><p> exáctamente a dónde ir</p>
+						</div><!--hidden xs col-6 descarga texto-->
 					</div><!--row interior-->
 				</div><!--col-12-9 descarga-->
 			</div><!--row descarga-->

@@ -1,6 +1,12 @@
 /*Formato general del header-nav*/
 #row-header {
-	margin: 0;
+	margin: 0;	
+}
+#nav-header {
+	background-color: #FFFFFF;
+	padding: 1.5rem;
+	border: none;
+	margin-bottom: 0;
 }
 /*Formato general de la section mobile comienza a viajar*/
 .section-travel {
@@ -12,6 +18,16 @@
 #row-travel {
 	margin: 0;
 }
+.section-travel #row-travel .travel-col {
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+	background-color: #F7B617;
+	padding: 2rem 2rem 3.5rem 4rem;
+}
+.section-travel #row-travel .travel-col h1 {
+	font-size: 2rem;
+}
+/*Formato general de la section disfruta viaje*/
 .section-travel #row-enjoy .travel-col {
 	margin-top: 18rem;
 	margin-bottom: 18rem;
@@ -37,8 +53,6 @@
 .after-before strong {
 	padding: 6rem; 
 }
-.section-travel #row-enjoy .travel-col 
-/*Formato general de la section disfruta viaje*/
 #row-enjoy {
 	margin: 0;
 }
@@ -46,17 +60,54 @@
 	padding: 0;
 }
 /*Formato general de la section nueva app (mobile)*/
+.section-newapp #row-newapp {
+	background-color: #F7B617;
+}
 #row-newapp {
 	margin: 0;	
 }
+.section-newapp #row-newapp .iphone-newapp {
+	background-color: #F7B617;
+	color: #FFFFFF;
+	padding: 3rem;
+}
+
 /*Formato general de la section descarga*/
+.download {
+	background-color: #F7B617;
+	color: #FFFFFF;
+}
 #row-download {
+	padding: 3rem 3rem 3rem 0;
 	margin: 0;	
+}
+.download #row-download .col-thumbnail {
+	background-color: #F7B617;
 }
 #mini-row-download {
+	padding: 3rem;
 	margin: 0;	
 }
+.download #row-download .iphone {
+	padding-left: 9rem;
+}
+.download #row-download .texto-download h3 {
+	padding: 2rem 1rem;
+	font-size: 2.5rem;
+}
+.download #row-download .texto-download p {
+	font-size: 2rem;
+	margin-bottom: 0.1rem;
+	padding-left: 1rem;
+}	
+.download #row-download .texto-download .download-paragraph {
+	padding-top: 1rem;
+}
 /*Formato general de la section conduce*/
+/*backgroun color: black /rgba(0,0,0,0.5);*/
+/*opacity: 0.8
+filter: alpha*/
+
 #row-drive {
 	margin: 0;	
 }
