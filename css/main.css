@@ -136,8 +136,57 @@
 	font-size: 1.75rem;
 }
 /*Formato general de la section tarifas*/
+.section-prices {
+	background-color: #F7B617;
+	color: #FFFFFF;
+}
 #row-prices {
 	margin: 0;	
+}
+.section-prices #row-prices .col-prices {
+	padding: 8rem 0 12rem 8rem;
+}
+.section-prices #row-prices .col-prices h4 {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.section-prices #row-prices .form-prices .input-prices {
+	background-color: #F7B617;
+	margin-bottom: 2rem;
+	border-color: #FFFFFF;
+	width: 100%;
+}
+.section-prices #row-prices .form-prices input::placeholder {
+	color: #FFFFFF;
+}
+.section-prices #row-prices .col-prices-america img {
+	padding: 1rem;
+	background-color: #F7B617;
+	border-color: #FFFFFF;
+	margin-top: 4rem;
+}
+.section-prices #row-prices .col-prices-mobile {
+	padding: 8rem 0 2rem 1rem;
+}
+.section-prices #row-prices .col-prices-mobile h5 {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.section-prices #row-prices .form-prices-mobile .input-prices-mobile {
+	background-color: #F7B617;
+	margin-bottom: 2rem;
+	border-color: #FFFFFF;
+	width: 90%;
+}
+.section-prices #row-prices .form-prices-mobile input::placeholder {
+	color: #FFFFFF;
+}
+.section-prices #row-prices .col-prices-route img {
+	padding: 1rem;
+	background-color: #F7B617;
+	border-color: #FFFFFF;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 /*Formato general del footer*/
 #row-footer {

@@ -97,19 +97,50 @@
 			</div><!--row conduce-->
 		</section><!--conduce-->
 
-		<section><!--tarifas-->
+		<section class="section-prices"><!--tarifas-->
 			<div class="row" id="row-prices"><!--row tarifas-->
-				<div class="col-xs-12 col-ms-12 col-md-6 col-lg-6"><!--col-12-6 tarifas-->
-					<h3>Tarifas</h3>
-					<p>Consulta las tarifas aquí</p>
-					<p><img src="assets/images/shape.png" class="img-responsive" alt="Responsive image"><input type="text" placeholder="Ingrese su punto de partida" name="partida"></p>
-					<p><img src="assets/images/shape2.png" class="img-responsive" alt="Responsive image"><input type="text" placeholder="Ingrese su destino" name="destino"></p>
-					<a class="btn btn-default" href="#" role="button">¡Trazar ruta!</a>
+				<div class="hidden-xs hidden-sm col-md-6 col-lg-6 col-prices"><!--col-12-6 tarifas-->
+					<h2>Tarifas</h2>
+					<h4>Consulta las tarifas Labcar aquí</h4>
+					<form class="form-horizontal form-prices">
+					  <div class="form-group">
+					    <img class="control-label col-md-1" src="assets/images/shape.png"></img>
+					    <div class="col-md-6">
+					      <input type="text" class="form-control input-prices" placeholder="Ingrese su punto de partida">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <img class="control-label col-md-1" src="assets/images/shape2.png"></img>
+					    <div class="col-md-6">
+					      <input type="password" class="form-control input-prices" placeholder="Ingrese su destino">
+					      <a class="btn btn-default" href="#" role="button"><strong>¡TRAZAR RUTA!</strong></a>
+					    </div>
+					  </div>
+					</form>		
 				</div><!--col-12-6 tarifas-->
-				<div class="hidden-xs hidden-sm col-md-6 col-lg-6"><!--col-12-6 tarifas-->
+				<div class="col-xs-12 col-ms-12 hidden-md hidden-lg col-prices-mobile"><!--col-12-6 tarifas (mobile)-->
+					<h4>Tarifas</h4>
+					<h5>Consulta las tarifas Labcar aquí</h5>
+					<form class="form-horizontal form-prices-mobile">
+					  <div class="form-group">
+					    <img class="control-label col-xs-2" src="assets/images/shape.png"></img>
+					    <div class="col-xs-10 col-sm-10">
+					      <input type="text" class="form-control input-prices-mobile" placeholder="Nueva Andrés Bello 1890, Independencia">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <img class="control-label col-xs-2" src="assets/images/shape2.png"></img>
+					    <div class="col-xs-10 col-md-10">
+					      <input type="password" class="form-control input-prices-mobile" placeholder="Puma 1180, Recoleta">
+					      <a class="btn btn-default" href="#" role="button"><strong>¡TRAZAR RUTA!</strong></a>
+					    </div>
+					  </div>
+					</form>		
+				</div><!--col-12-6 tarifas (mobile)-->
+				<div class="hidden-xs hidden-sm col-md-6 col-lg-6 col-prices-america"><!--col-12-6 tarifas-->
 					<img src="assets/images/americaDelSur.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
 				</div><!--col-12-6 tarifas-->
-				<div class="col-xs-12 col-sm-12 hidden-md hidden-lg"><!--col-12-6 tarifas (mobile)-->
+				<div class="col-xs-12 col-sm-12 hidden-md hidden-lg col-prices-route"><!--col-12-6 tarifas (mobile)-->
 					<img src="assets/images/recorridoCasaLab.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
 				</div><!--col-12-6 tarifas (mobile)-->
 			</div><!--row tarifas (mobile)-->
