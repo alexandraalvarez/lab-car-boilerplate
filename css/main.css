@@ -11,6 +11,9 @@ body {
 	border: none;
 	margin-bottom: 0;
 }
+.header #row-header #nav-header .fa-bars {
+	color: #6E6E6E;
+}
 /*Formato general de la section mobile comienza a viajar*/
 .section-travel {
 	background-image: url(../assets/images/taxi.jpg);
@@ -29,6 +32,10 @@ body {
 }
 .section-travel #row-travel .col-travel h1 {
 	font-size: 2rem;
+}
+.section-travel #row-travel .col-travel .logo-blanco-mobile {
+	width: 23%;
+	display: inline-block;
 }
 /*Formato general de la section disfruta viaje*/
 .section-travel #row-enjoy .col-travel {
@@ -117,6 +124,26 @@ body {
 .section-download #row-download .col-texto-download .paragraph-download {
 	padding-top: 1rem;
 }
+/*Formato general de la section conduce mobile*/
+.section-drive-mobile {
+	background-image: url(../assets/images/conduce.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #FFFFFF;
+}
+#row-drive-mobile {
+	margin: 0;	
+}
+.section-drive-mobile #row-drive-mobile .col-drive-mobile {
+	background-color: rgba(0,0,0,0.5);
+	padding: 5rem 2rem 15.25rem 4rem;
+}
+.section-drive-mobile #row-drive-mobile .col-drive-mobile .button-drive-mobile {
+	background-color: #F7B617;
+	color: #FFFFFF;
+	border: none;
+	padding: 1rem;
+}
 /*Formato general de la section conduce*/
 .section-drive {
 	background-image: url(../assets/images/conduce.jpg);
@@ -168,8 +195,9 @@ body {
 	border-color: #FFFFFF;
 	margin-top: 4rem;
 }
+/*Formato general de la section tarifas mobile*/
 .section-prices #row-prices .col-prices-mobile {
-	padding: 8rem 0 2rem 1rem;
+	padding: 6rem 0 2rem 1rem;
 }
 .section-prices #row-prices .col-prices-mobile h5 {
 	padding-top: 2rem;
