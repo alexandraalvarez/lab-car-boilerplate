@@ -18,26 +18,26 @@
 #row-travel {
 	margin: 0;
 }
-.section-travel #row-travel .travel-col {
+.section-travel #row-travel .col-travel {
 	margin-top: 10rem;
 	margin-bottom: 10rem;
 	background-color: #F7B617;
 	padding: 2rem 2rem 3.5rem 4rem;
 }
-.section-travel #row-travel .travel-col h1 {
+.section-travel #row-travel .col-travel h1 {
 	font-size: 2rem;
 }
 /*Formato general de la section disfruta viaje*/
-.section-travel #row-enjoy .travel-col {
+.section-travel #row-enjoy .col-travel {
 	margin-top: 18rem;
 	margin-bottom: 18rem;
 	background-color: #F7B617;
 	padding: 2rem 2rem 3.5rem 4rem;
 }
-.section-travel #row-enjoy .travel-col h1 {
+.section-travel #row-enjoy .col-travel h1 {
 	padding-bottom: 2.5rem;
 }
-.section-travel #row-enjoy .travel-col a { /*botón regístrate*/
+.section-travel #row-enjoy .col-travel a { /*botón regístrate*/
 	padding: 1rem;
 	font-size: 1.7rem;
 	margin-bottom: 2rem;
@@ -84,7 +84,7 @@
 
 }
 /*Formato general de la section descarga*/
-.download {
+.section-download {
 	background-color: #F7B617;
 	color: #FFFFFF;
 }
@@ -92,35 +92,48 @@
 	padding: 3rem 3rem 3rem 0;
 	margin: 0;	
 }
-.download #row-download .col-thumbnail {
+.section-download #row-download .col-thumbnail {
 	background-color: #F7B617;
 }
 #mini-row-download {
 	padding: 3rem;
 	margin: 0;	
 }
-.download #row-download .iphone {
+.section-download #row-download .col-iphone {
 	padding-left: 9rem;
 }
-.download #row-download .texto-download h3 {
+.section-download #row-download .col-texto-download h3 {
 	padding: 2rem 1rem;
 	font-size: 2.5rem;
 }
-.download #row-download .texto-download p {
+.section-download #row-download .col-texto-download p {
 	font-size: 2rem;
 	margin-bottom: 0.1rem;
 	padding-left: 1rem;
 }	
-.download #row-download .texto-download .download-paragraph {
+.section-download #row-download .col-texto-download .paragraph-download {
 	padding-top: 1rem;
 }
 /*Formato general de la section conduce*/
-/*backgroun color: black /rgba(0,0,0,0.5);*/
-/*opacity: 0.8
-filter: alpha*/
-
+.section-drive {
+	background-image: url(../assets/images/conduce.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #FFFFFF;
+}
 #row-drive {
 	margin: 0;	
+}
+.section-drive #row-drive .col-drive {
+	background-color: rgba(0,0,0,0.5);
+	padding: 9rem 2rem 20.25rem 4rem;
+}
+.section-drive #row-drive .col-drive .button-drive {
+	background-color: #F7B617;
+	color: #FFFFFF;
+	border: none;
+	padding: 1rem;
+	font-size: 1.75rem;
 }
 /*Formato general de la section tarifas*/
 #row-prices {
