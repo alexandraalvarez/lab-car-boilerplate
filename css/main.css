@@ -66,12 +66,23 @@
 #row-newapp {
 	margin: 0;	
 }
-.section-newapp #row-newapp .iphone-newapp {
+.section-newapp #row-newapp .col-iphone {
+	padding: 0;
+}
+.section-newapp #row-newapp .col-iphone-newapp {
 	background-color: #F7B617;
 	color: #FFFFFF;
 	padding: 3rem;
+	margin-top: 4rem;
+	margin-left: 1.5rem;
 }
+.section-newapp #row-newapp #row-iphone {
+	margin: 0;
+	color: #FFFFFF;
+}
+.section-newapp #row-iphone .col-arrive-paragraph {
 
+}
 /*Formato general de la section descarga*/
 .download {
 	background-color: #F7B617;
