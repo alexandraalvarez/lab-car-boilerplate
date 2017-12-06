@@ -16,7 +16,7 @@ body {
 }
 /*Formato general de la section mobile comienza a viajar*/
 .section-travel {
-	background-image: url(../assets/images/taxi.jpg);
+	background-image: url(../../assets/images/taxi.jpg);
 	background-size: cover;
 	background-position: bottom;
 	color: #FFFFFF;
@@ -126,7 +126,7 @@ body {
 }
 /*Formato general de la section conduce mobile*/
 .section-drive-mobile {
-	background-image: url(../assets/images/conduce.jpg);
+	background-image: url();
 	background-size: cover;
 	background-position: center;
 	color: #FFFFFF;
@@ -146,7 +146,7 @@ body {
 }
 /*Formato general de la section conduce*/
 .section-drive {
-	background-image: url(../assets/images/conduce.jpg);
+	background-image: url(../../assets/images/conduce.jpg);
 	background-size: cover;
 	background-position: center;
 	color: #FFFFFF;

@@ -4,13 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet"/>
+    <link href="assets/css/main.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <title>Lab-<ar</title>
   </head>
   <body>
-
   	<header class="header">
   		<div class="row" id="row-header"><!--row nav header-->
   			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="col-header"><!--col-->
@@ -25,7 +24,7 @@
 						    <ul class="nav navbar-nav navbar-right">
 						      <li><a href="#">Viaja</a></li>
 						      <li><a href="#" class="">Conduce</a></li>
-						      <li><a href="#" class="">Iniciar sesión</a></li>
+						      <li data-toggle="modal" data-target="#myModal"><a href="#" class="">Iniciar sesión</a></li>
 						    </ul>
 						  </div><!-- /.navbar-collapse -->
 						</div><!-- /.container-fluid -->
@@ -33,7 +32,6 @@
   			</div><!--col-->
   		</div><!--row nav header-->
   	</header>
-
 		<section class="hidden-lg hidden-md hidden-sm visible-xs- section-travel"><!--comienza a viajar (mobile)-->
 			<div class="row" id="row-travel"><!--row comienza a viajar (mobile)-->
 				<div class="col-xs-10 col-xs-offset-2 col-travel"><!--col-5-10 offset-7 comienza a viajar (mobile)-->
@@ -42,7 +40,6 @@
 				</div><!--col-7-10 comienza a viajar (mobile)-->
 			</div><!--row comienza a viajar (mobile)-->
 		</section><!--comienza a viajar (mobile)-->  
-
 		<section class="hidden-xs visible-sm- visible-md- visible-lg- section-travel"><!--disfruta viaje-->
 			<div class="row" id="row-enjoy"><!--row disfruta viaje-->
 				<div class="col-sm-10 col-sm-offset-2 col-md-5 col-md-offset-7 col-lg-5 col-lg-offset-7 col-travel"><!--col-5-10 offset-7 disfruta viaje-->
@@ -54,7 +51,6 @@
 				</div><!--col-7-10 disfruta viaje-->
 			</div><!--row disfruta viaje-->
 		</section><!--disfruta viaje-->  
-
 		<section class="visible-xs hidden-sm hidden-md hidden-lg section-newapp"><!--nueva app (mobile)-->
 			<div class="row" id="row-newapp"><!--row nueva app (mobile)-->
 				<div class="col-xs-12 col-iphone"><!--col-12 nueva app (movile)-->
@@ -69,8 +65,7 @@
 					</div>
 				</div><!--col-12 nueva app (mobile)-->
 			</div><!--row nueva app (mobile)-->
-		</section><!--nueva app (mobile)-->
-		
+		</section><!--nueva app (mobile)-->	
 		<section class="hidden-xs section-download"><!--descarga-->
 			<div class="row" id="row-download"><!--row descarga-->
 				<div class="col-sm-10 col-md-10 col-lg-10 thumbnail col-thumbnail"><!--col-12-9 descarga-->
@@ -87,7 +82,6 @@
 				</div><!--col-12-9 descarga-->
 			</div><!--row descarga-->
 		</section><!--descarga-->
-
 		<section class="section-drive-mobile"><!--conduce (mobile)-->
 			<div class="row" id="row-drive-mobile"><!--row conduce (mobile)-->
 				<div class="col-xs-12 col-sm-12 hidden-md hidden-lg col-drive-mobile"><!--col-12 hidden md y lg conduce (mobile)-->
@@ -97,7 +91,6 @@
 				</div><!--col-12 hidden med y lg conduce (mobile)-->
 			</div><!--row conduce (mobile)-->
 		</section><!--conduce (mobile)-->
-
 		<section class="section-drive"><!--conduce-->
 			<div class="row" id="row-drive"><!--row conduce-->
 				<div class="hidden-xs hidden-sm col-md-4 col-md-offset-8 col-lg-4 col-lg-offset-8 col-drive"><!--hidden xs y sm col-4 offset-8 conduce-->
@@ -107,7 +100,6 @@
 				</div><!--hidden xs y sm col-4 offset-8 conduce-->
 			</div><!--row conduce-->
 		</section><!--conduce-->
-
 		<section class="section-prices"><!--tarifas-->
 			<div class="row" id="row-prices"><!--row tarifas-->
 				<div class="hidden-xs hidden-sm col-md-6 col-lg-6 col-prices"><!--col-12-6 tarifas-->
@@ -156,7 +148,6 @@
 				</div><!--col-12-6 tarifas (mobile)-->
 			</div><!--row tarifas (mobile)-->
 		</section><!--tarifas (mobile)-->
-
 		<footer class="footer">
 			<div class="row" id="row-footer"><!--row footer logo-->
 				<div class="hidden-xs hidden-sm col-md-12 col-lg-12 col-footer-logo"><!--hidden xs y sm col-12 footer-->
@@ -227,7 +218,6 @@
 				</div><!--col-12 hidden md y lg footer-->
 			</div><!--row footer-->
 		</footer>
-
   	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
