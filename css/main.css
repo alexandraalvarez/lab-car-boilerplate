@@ -1,3 +1,6 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
 /*Formato general del header-nav*/
 #row-header {
 	margin: 0;	
@@ -189,9 +192,49 @@
 	margin-bottom: 2rem;
 }
 /*Formato general del footer*/
+.footer {
+	background-color: #2B2B2B;
+}
 #row-footer {
 	margin: 0;
 }
+.footer #row-footer .col-footer-logo {
+	padding-right: 2rem;
+	padding-left: 8rem;
+}
+.footer #row-footer .col-footer-logo img {
+	padding-top: 8rem;
+}
+#row-footer-lists {
+	margin: 0;
+}
+.footer #row-footer-lists .col-footer-list ul li {/*no responde ni con padding, ni margin, ni id, ni important*/
+	padding-bottom: 2rem;
+}
+.footer #row-footer-lists ul li a{
+	color: #FFFFFF;
+}
+.footer #row-footer-lists .col-footer-svg img {
+	padding-bottom: 2rem;
+	width: 50%;
+}
+.footer #row-footer-lists .col-footer-svg .app-store {
+	padding-top: 20rem;
+}
+#row-social {
+	margin: 0;
+}
+.footer #row-social .col-social {
+	padding-left: 8rem;
+}
+.footer #row-social .col-social .fa {
+	color: #FFFFFF;
+	padding-right: 0.5rem;
+}
 #row-copyright {
 	margin: 0;
+}
+.footer #row-copyright .col-copyright {
+	color: #FFFFFF;
+	padding-left: 8rem;
 }
