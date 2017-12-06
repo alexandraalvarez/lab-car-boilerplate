@@ -195,6 +195,9 @@ body {
 	border-color: #FFFFFF;
 	margin-top: 4rem;
 }
+.section-prices #row-prices .form-prices .button-route {
+	margin-left: 6rem; 
+}
 /*Formato general de la section tarifas mobile*/
 .section-prices #row-prices .col-prices-mobile {
 	padding: 6rem 0 2rem 1rem;
@@ -219,6 +222,9 @@ body {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
+.section-prices #row-prices .form-prices-mobile .button-route-mobile {
+	margin-left: 6rem; 
+}
 /*Formato general del footer*/
 .footer {
 	background-color: #2B2B2B;
@@ -233,8 +239,13 @@ body {
 .footer #row-footer .col-footer-logo img {
 	padding-top: 8rem;
 }
+.footer #row-footer .col-footer-logo-mobile img {
+	padding-top: 1rem;
+	width: 30%;
+}
 #row-footer-lists {
 	margin: 0;
+	padding-top: 2rem;
 }
 .footer #row-footer-lists .col-footer-list ul li {/*no responde ni con padding, ni margin, ni id, ni important*/
 	padding-bottom: 2rem;
@@ -246,8 +257,22 @@ body {
 	padding-bottom: 2rem;
 	width: 50%;
 }
+.footer #row-footer-lists .col-footer-svg-mobile .app-store-mobile {
+	width: 100%;
+}
+.footer #row-footer-lists .col-footer-svg-mobile .google-play-mobile {
+	width: 100%;
+}
 .footer #row-footer-lists .col-footer-svg .app-store {
 	padding-top: 20rem;
+}
+.footer #row-footer-lists .col-footer-svg-mobile .google-play-mobile {
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+}
+.footer #row-footer-lists .col-footer-svg-mobile .fa {
+	color: #FFFFFF;
+	padding-right: 0.25rem;
 }
 #row-social {
 	margin: 0;
@@ -265,4 +290,9 @@ body {
 .footer #row-copyright .col-copyright {
 	color: #FFFFFF;
 	padding-left: 8rem;
+	padding-bottom: 6rem;
+}
+.footer #row-copyright .col-copyright-mobile {
+	color: #FFFFFF;
+	padding-left: 2rem;
 }
