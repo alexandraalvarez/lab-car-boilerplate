@@ -11,10 +11,10 @@
 	<body>
 		<div class="container">	
 	  <!-- Trigger the modal with a button -->
-	  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+	  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalC">Open Modal</button>
 
   <!-- Modal -->
-  		<div class="modal fade" id="myModal" role="dialog">
+  		<div class="modal fade" id="myModalC" role="dialog">
     		<div class="modal-dialog">
       		<div class="modal-content">
       			<div class="row">
@@ -22,41 +22,58 @@
           			<button type="button" class="close" data-dismiss="modal">&times;</button>
         			</div>
 							<div class="col-xs-12 col-md-12">
-					    	<button type="button" class="btn btn-inverted">¿Ya tienes una cuenta?</button>
-					    	<a href="#"><h5>O crea una cuenta nueva</h5></a>
+								<h5>¿Tienes un vehículo de 4 puertas?</h5>
+					    	<div class="btn-group">
+								  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Si <span class="caret"></span></button>
+								  <ul class="dropdown-menu">
+								    <li><a href="#">No</a></li>
+								  </ul>
+								</div>
 							</div>
-							<div class="col-lg-6">
-			      	  <div class="input-group">
-			        	  <input type="text" class="form-control" placeholder="Nombre">
-			      	  </div><!-- /input-group -->
-			  		  </div><!-- /.col-lg-6 -->
-			  		  <div class="col-lg-6">
-			      	  <div class="input-group">
-			        	  <input type="text" class="form-control" placeholder="Apellido">
-			      	  </div><!-- /input-group -->
-			    	  </div><!-- /.col-lg-6 -->
-        			<div class="modal-body col-md-12">
-            		<form role="input">
-              		<div class="input-group">
- 			 				  		<input type="text" class="form-control" placeholder="Correo electrónico: ejemplo@correo.mx">
- 			  			  		<input type="text" class="form-control" placeholder="Teléfono">
- 			  			  		<input type="text" class="form-control" placeholder="Contraseña">
- 			  			  		<input type="text" class="form-control" placeholder="Ciudad">
- 			  			  		<input type="text" class="form-control" placeholder="Código de invitación">
- 			  			  		<div class="btn-group">
-								  		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Cómo te enteraste de nosotros? <span class="caret"></span></button>
-								  		<ul class="dropdown-menu">
-								    		<li><a href="#">Action</a></li>
-								    		<li><a href="#">Another action</a></li>
-								    		<li><a href="#">Something else here</a></li>
-								    		<li role="separator" class="divider"></li>
-								    		<li><a href="#">Separated link</a></li>
-								  		</ul>
-										</div>
- 			  			  		<button type="submit" class="btn btn-default btn-warning">ENVIAR</button>
-              		</div>
-          			</form>
-        			</div>
+							<div class="col-xs-12 col-md-12">
+								<h5>Marca</h5>
+					    	<div class="btn-group">
+								  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Elige marca del vehículo <span class="caret"></span></button>
+								  <ul class="dropdown-menu">
+								    <li><a href="#">Porsche</a></li>
+								    <li><a href="#">Ferrari</a></li>
+								    <li><a href="#">Mercedes Benz</a></li>
+								  </ul>
+								</div>
+								<h6>¿No ves tu vehículo en la lista? Envía un correo electrónico a <a href="#">sociosmdv@uber.com</a></h6>
+							</div>
+							<div class="col-xs-12 col-md-12">
+								<h5>Modelo</h5>
+					    	<div class="btn-group">
+								  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Modelo 1 <span class="caret"></span></button>
+								  <ul class="dropdown-menu">
+								    <li><a href="#">Modelo 2</a></li>
+								    <li><a href="#">Modelo 3</a></li>
+								    <li><a href="#">Modelo 4</a></li>
+								    <li><a href="#">Modelo 5</a></li>
+								  </ul>
+								</div>
+							</div>
+							<div class="col-xs-12 col-md-12">
+								<h5>Año</h5>
+					    	<div class="btn-group">
+								  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 2017 <span class="caret"></span></button>
+								  <ul class="dropdown-menu">
+								    <li><a href="#">2016</a></li>
+								    <li><a href="#">2015</a></li>
+								    <li><a href="#">2014</a></li>
+								    <li><a href="#">2013</a></li>
+								  </ul>
+								</div>
+							</div>
+							<div class="col-xs-12 col-md-12">
+								<h5>Número de la matrícula</h5>
+								<input type="text" class="form-control" placeholder="Número de la matrícula">
+								<h6>La información de la matrícula ayuda a los clientes a identificar tu vehículo</h6>
+					    	<div class="btn-group">
+								  <button type="submit" class="btn btn-default btn-info btn-lg">ENVIAR</button>
+								</div>
+							</div>
         		</div>
       		</div>
     		</div>
@@ -65,3 +82,4 @@
 		</div>
 	</body>
 </html>
+

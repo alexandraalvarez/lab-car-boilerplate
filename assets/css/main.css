@@ -126,7 +126,7 @@ body {
 }
 /*Formato general de la section conduce mobile*/
 .section-drive-mobile {
-	background-image: url();
+	background-image: url(../../assets/images/conduce.jpg);
 	background-size: cover;
 	background-position: center;
 	color: #FFFFFF;
